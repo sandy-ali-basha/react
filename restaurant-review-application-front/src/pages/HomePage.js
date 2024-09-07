@@ -6,6 +6,7 @@ import Stats from "../components/Stats";
 import Category from "../components/Category";
 import Testimonials from "../components/Testimonials";
 import Gallery from "../components/Gallery";
+import Contact from "../components/Contact";
 
 // Define categories for the list
 const categories = [
@@ -138,6 +139,7 @@ const HomePage = ({ userName }) => {
         <AboutUs />
         <Testimonials />
         <Gallery />
+        <Contact />
       </main>
       <footer id="footer" className="footer dark-background">
         <div className="container">
