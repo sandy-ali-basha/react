@@ -4,10 +4,12 @@ import HomePage from './pages/HomePage';
 import Login from './components/Login';
 import Register from './components/Register';
 import ForgotPassword from './components/ForgotPassword';
-
+import "./assets/css/main.css"
 
 function App() {
   const userName = 'hala'; 
+ 
+
 
   return (
     <Router>
